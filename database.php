@@ -23,6 +23,7 @@ switch($option){
 		}else{
     		echo "<p>Zero result.</p>";
 		}
+		break;
 		
 	case 'fname':
 		$sql = "SELECT * FROM studentYr INNER JOIN colleges ON studentYr.major = colleges.major WHERE firstName = '$search'";
@@ -36,6 +37,7 @@ switch($option){
 		}else{
     		echo "<p>Zero result.</p>";
 		}
+		break;
 		
 	case 'college':
 		$sql = "SELECT * FROM studentYr INNER JOIN colleges ON studentYr.major = colleges.major WHERE college = '$search'";
@@ -49,6 +51,7 @@ switch($option){
 		}else{
     		echo "<p>Zero result.</p>";
 		}
+		break;
 		
 	case 'major':
 		$sql = "SELECT * FROM studentYr INNER JOIN colleges ON studentYr.major = colleges.major WHERE studentYr.major = '$search'";
@@ -62,6 +65,7 @@ switch($option){
 		}else{
     		echo "<p>Zero result.</p>";
 		}
+		break;
 		
 	case 'id':
 		$sql = "SELECT * FROM studentYr INNER JOIN colleges ON studentYr.major = colleges.major WHERE id = '$search'";
@@ -75,6 +79,7 @@ switch($option){
 		}else{
     		echo "<p>Zero result.</p>";
 		}
+		break;
 	
 	default:
 		$sql = "SELECT * FROM studentYr INNER JOIN colleges ON studentYr.major = colleges.major";
@@ -88,6 +93,7 @@ switch($option){
 		}else{
     		echo "<p>Zero result.</p>";
 		}
+		break;
 
 }
 
