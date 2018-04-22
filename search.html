@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Search</title>
+    </head>
+    <body>
+        <h1>Search student directory</h1><br>
+        <form id="searchform" action="database.php" method="get">
+            Search by <select form="searchform">
+                <option value="fname">First Name</option>
+                <option value="lname">Last Name</option>
+                <option value="id">Student ID</option>
+                <option value="major">Major</option>
+                <option value="college">College</option>
+            </select> <br> <br>
+            Keyword:
+            <input type="text" name="search" required> <br> <br>
+            <input type="submit" value="Search ...">
+            <input type="reset" value="Clear ...">
+        </form>
+    
+    </body>
+</html>
