@@ -17,7 +17,7 @@ switch($option){
 		if ($result->num_rows > 0) {
 			while($row = $result->fetch_assoc()){
 				echo "<tr>";
-        		echo "<td>".$row["id"]."</td><td>".$row["firstName"]."</td><td>".$row["lastName"]."</td><td>".$row["year"]."</td>";
+        		echo "<td>".$row["ID"]."</td><td>".$row["firstName"]."</td><td>".$row["lastName"]."</td><td>".$row["major"]."</td><td>".$row["gradYear"]."</td>";
 				echo "</tr>";
     		}
 		}else{
@@ -30,7 +30,7 @@ switch($option){
 		if ($result->num_rows > 0) {
 			while($row = $result->fetch_assoc()){
 				echo "<tr>";
-        		echo "<td>".$row["id"]."</td><td>".$row["firstName"]."</td><td>".$row["lastName"]."</td><td>".$row["year"]."</td>";
+        		echo "<td>".$row["ID"]."</td><td>".$row["firstName"]."</td><td>".$row["lastName"]."</td><td>".$row["major"]."</td><td>".$row["gradYear"]."</td>";
 				echo "</tr>";
     		}
 		}else{
@@ -43,7 +43,7 @@ switch($option){
 		if ($result->num_rows > 0) {
 			while($row = $result->fetch_assoc()){
 				echo "<tr>";
-        		echo "<td>".$row["id"]."</td><td>".$row["firstName"]."</td><td>".$row["lastName"]."</td><td>".$row["year"]."</td>";
+        		echo "<td>".$row["ID"]."</td><td>".$row["firstName"]."</td><td>".$row["lastName"]."</td><td>".$row["major"]."</td><td>".$row["gradYear"]."</td>";
 				echo "</tr>";
     		}
 		}else{
@@ -56,7 +56,7 @@ switch($option){
 		if ($result->num_rows > 0) {
 			while($row = $result->fetch_assoc()){
 				echo "<tr>";
-        		echo "<td>".$row["id"]."</td><td>".$row["firstName"]."</td><td>".$row["lastName"]."</td><td>".$row["year"]."</td>";
+        		echo "<td>".$row["ID"]."</td><td>".$row["firstName"]."</td><td>".$row["lastName"]."</td><td>".$row["major"]."</td><td>".$row["gradYear"]."</td>";
 				echo "</tr>";
     		}
 		}else{
@@ -69,7 +69,7 @@ switch($option){
 		if ($result->num_rows > 0) {
 			while($row = $result->fetch_assoc()){
 				echo "<tr>";
-        		echo "<td>".$row["id"]."</td><td>".$row["firstName"]."</td><td>".$row["lastName"]."</td><td>".$row["year"]."</td>";
+        		echo "<td>".$row["ID"]."</td><td>".$row["firstName"]."</td><td>".$row["lastName"]."</td><td>".$row["major"]."</td><td>".$row["gradYear"]."</td>";
 				echo "</tr>";
     		}
 		}else{
@@ -82,7 +82,7 @@ switch($option){
 		if ($result->num_rows > 0) {
 			while($row = $result->fetch_assoc()){
 				echo "<tr>";
-        		echo "<td>".$row["id"]."</td><td>".$row["firstName"]."</td><td>".$row["lastName"]."</td><td>".$row["year"]."</td>";
+        		echo "<td>".$row["ID"]."</td><td>".$row["firstName"]."</td><td>".$row["lastName"]."</td><td>".$row["major"]."</td><td>".$row["gradYear"]."</td>";
 				echo "</tr>";
     		}
 		}else{
