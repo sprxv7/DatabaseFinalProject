@@ -17,7 +17,9 @@
 				<th>Last Name</th>
                 <th>Major</th>
                 <th>College</th>
-				<th>Graduation Year</th>
+                <th>Graduation Year</th>
+                <th>Edit ... </th>
+                <th>Delete ... </th>
 			</tr>
         <?php
             // query the database, print out table html of default records:
