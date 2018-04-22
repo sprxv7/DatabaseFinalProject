@@ -2,56 +2,56 @@ CREATE TABLE studentYr (
     ID INT(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
     lastName CHAR(15) NOT NULL,
     firstName CHAR(15) NOT NULL,
-    major CHAR(25) NOT NULL PRIMARY KEY,
+    major CHAR(25) NOT NULL,
     gradYear INT(4) NOT NULL,
     FOREIGN KEY (major) REFERENCES colleges (major)
-)
+);
 
-INSERT INTO studentYr VALUES ('Doe','John','Mathematics', 2017);
-INSERT INTO studentYr VALUES ('Smith','Carla','Accounting', 2010);
-INSERT INTO studentYr VALUES ('Jones','Jessica','Marketing',2013);
-INSERT INTO studentYr VALUES ('Fox','Michael','Counseling',2015);
-INSERT INTO studentYr VALUES ('Buikus','Austin','Mechanical Engineering',2013);
-INSERT INTO studentYr VALUES ('Miller','Brian','Management',2016);
-INSERT INTO studentYr VALUES ('Nguyen','Sara','Biology',2016);
-INSERT INTO studentYr VALUES ('Rook','Roy','Physics',2011);
-INSERT INTO studentYr VALUES ('Smith','Joshua','General',2012);
-INSERT INTO studentYr VALUES ('Brown','Grace','Social Work',2017);
-INSERT INTO studentYr VALUES ('Hirsh','Amber','Early Childhood Education',2010);
-INSERT INTO studentYr VALUES ('Williams','Harry','Civil Engineering',2014);
-INSERT INTO studentYr VALUES ('Johnson','Logan','Aerospace Engineering',2015);
-INSERT INTO studentYr VALUES ('Jones','Tiffany','Political Science',2011);
-INSERT INTO studentYr VALUES ('Davis','Theresa','Philosophy',2017);
-INSERT INTO studentYr VALUES ('Wilson','Roger','English',2018);
-INSERT INTO studentYr VALUES ('Murphy','Douglas','Special Education',2015);
-INSERT INTO studentYr VALUES ('White','John','German',2014);
-INSERT INTO studentYr VALUES ('Thompson','Aaron','Computer Science',2012);
-INSERT INTO studentYr VALUES ('Robinson','Jerry','Nuclear Engineering',2014);
-INSERT INTO studentYr VALUES ('Kelley','Patrick','Mathematics',2016);
-INSERT INTO studentYr VALUES ('Diaz','Anthony','Sociology',2016);
-INSERT INTO studentYr VALUES ('Price','Jessica','Early Childhood Education',2017);
-INSERT INTO studentYr VALUES ('Hall','Rachel','Secondary Education',2018);
-INSERT INTO studentYr VALUES ('Morris','Debra','Secondary Education',2011);
-INSERT INTO studentYr VALUES ('Wood','Benjamin','Civil Engineering',2013);
-INSERT INTO studentYr VALUES ('Pham','Jessia','Psychology',2014);
-INSERT INTO studentYr VALUES ('White','George','Mathematics',2012);
-INSERT INTO studentYr VALUES ('Doe','Kevin','Chemical Engineering',2011);
-INSERT INTO studentYr VALUES ('Green','Steven','Chemistry',2014);
-INSERT INTO studentYr VALUES ('Baker','Michael','French',2012);
-INSERT INTO studentYr VALUES ('Harris','Spencer','Mechanical Engineering',2016);
-INSERT INTO studentYr VALUES ('Hall','Sandra','Elemetnary Education',2017);
-INSERT INTO studentYr VALUES ('Young','Eric','Social Work',2018);
-INSERT INTO studentYr VALUES ('Smith','Karen','English',2015);
-INSERT INTO studentYr VALUES ('Miller','Sara','Biology',2012);
-INSERT INTO studentYr VALUES ('Robinson','Emily','Biological Engineering',2011);
-INSERT INTO studentYr VALUES ('Williams','Natalie','Computer Science',2010);
-INSERT INTO studentYr VALUES ('Edwards','James','Finance',2015);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Doe','John','Mathematics',2017);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Smith','Carla','Accounting',2010);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Jones','Jessica','Marketing',2013);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Fox','Michael','Counseling',2015);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Buikus','Austin','Mechanical Engineering',2013);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Miller','Brian','Management',2016);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Nguyen','Sara','Biology',2016);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Rook','Roy','Physics',2011);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Smith','Joshua','General',2012);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Brown','Grace','Social Work',2017);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Hirsh','Amber','Early Childhood Education',2010);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Williams','Harry','Civil Engineering',2014);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Johnson','Logan','Aerospace Engineering',2015);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Jones','Tiffany','Political Science',2011);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Davis','Theresa','Philosophy',2017);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Wilson','Roger','English',2018);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Murphy','Douglas','Special Education',2015);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('White','John','German',2014);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Thompson','Aaron','Computer Science',2012);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Robinson','Jerry','Nuclear Engineering',2014);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Kelley','Patrick','Mathematics',2016);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Diaz','Anthony','Sociology',2016);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Price','Jessica','Early Childhood Education',2017);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Hall','Rachel','Secondary Education',2018);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Morris','Debra','Secondary Education',2011);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Wood','Benjamin','Civil Engineering',2013);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Pham','Jessia','Psychology',2014);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('White','George','Mathematics',2012);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Doe','Kevin','Chemical Engineering',2011);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Green','Steven','Chemistry',2014);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Baker','Michael','French',2012);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Harris','Spencer','Mechanical Engineering',2016);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Hall','Sandra','Elemetnary Education',2017);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Young','Eric','Social Work',2018);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Smith','Karen','English',2015);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Miller','Sara','Biology',2012);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Robinson','Emily','Biological Engineering',2011);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Williams','Natalie','Computer Science',2010);
+INSERT INTO studentYr (lastName, firstName, major, gradYear) VALUES ('Edwards','James','Finance',2015);
 COMMIT;
 
 CREATE TABLE colleges (
     major char(32) PRIMARY KEY NOT NULL,
     college char(32) NOT NULL 
-)
+);
 
 INSERT INTO colleges VALUES ('Biology', 'Arts & Science');
 INSERT INTO colleges VALUES ('Chemistry', 'Arts & Science');
