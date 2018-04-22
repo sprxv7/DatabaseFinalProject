@@ -9,10 +9,10 @@ if ($mysqli->connect_error) {
 echo "<h1>Connected successfully</h1>";
 $search = $_GET['search'];
 $option = $_GET['option'];
+
 switch($option){
-		
 	case 'lname':
-		$sql = "SELECT * FROM tasks WHERE lastName = '$search'";
+		$sql = "SELECT * FROM studentYr WHERE lastName = '$search'";
 		$result = $mysqli->query($sql);
 		if ($result->num_rows > 0) {
 			while($row = $result->fetch_assoc()){
@@ -25,7 +25,7 @@ switch($option){
 		}
 		
 	case 'fname':
-		$sql = "SELECT * FROM tasks WHERE firstName = '$search'";
+		$sql = "SELECT * FROM studentYr WHERE firstName = '$search'";
 		$result = $mysqli->query($sql);
 		if ($result->num_rows > 0) {
 			while($row = $result->fetch_assoc()){
@@ -38,7 +38,7 @@ switch($option){
 		}
 		
 	case 'college':
-		$sql = "SELECT * FROM tasks WHERE college = '$search'";
+		$sql = "SELECT * FROM studentYr INNER JOIN colleges ON studentYr.major = colleges.major WHERE college = '$search'";
 		$result = $mysqli->query($sql);
 		if ($result->num_rows > 0) {
 			while($row = $result->fetch_assoc()){
@@ -51,7 +51,7 @@ switch($option){
 		}
 		
 	case 'major':
-		$sql = "SELECT * FROM tasks WHERE major = '$search'";
+		$sql = "SELECT * FROM studentYr WHERE major = '$search'";
 		$result = $mysqli->query($sql);
 		if ($result->num_rows > 0) {
 			while($row = $result->fetch_assoc()){
@@ -64,7 +64,7 @@ switch($option){
 		}
 		
 	case 'id':
-		$sql = "SELECT * FROM tasks WHERE id = '$search'";
+		$sql = "SELECT * FROM studentYr WHERE id = '$search'";
 		$result = $mysqli->query($sql);
 		if ($result->num_rows > 0) {
 			while($row = $result->fetch_assoc()){
@@ -77,7 +77,7 @@ switch($option){
 		}
 	
 	default:
-		$sql = "SELECT * FROM tasks";
+		$sql = "SELECT * FROM studentYr";
 		$result = $mysqli->query($sql);
 		if ($result->num_rows > 0) {
 			while($row = $result->fetch_assoc()){
