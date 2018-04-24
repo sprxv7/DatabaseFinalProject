@@ -87,7 +87,7 @@ switch($option){
 		if ($result->num_rows > 0) {
 			while($row = $result->fetch_assoc()){
 				echo "<tr>";
-        		echo "<td>".$row["ID"]."</td><td>".$row["firstName"]."</td><td>".$row["lastName"]."</td><td>".$row["major"]."</td><td>".$row["college"]."</td><td>".$row["gradYear"]."</td><td>edit button</td><td>delete button</td>";
+        		echo "<td>".$row["ID"]."</td><td>".$row["firstName"]."</td><td>".$row["lastName"]."</td><td>".$row["major"]."</td><td>".$row["college"]."</td><td>".$row["gradYear"]."</td><td><form action=edit.php method="post"><input type="hidden" name="id" value="$row['ID']"><input type='submit' value='Edit'></form></td><td><form action=delete.php method="post"><input type="hidden" name="id" value="$row['ID']"><input type='submit' value='Delete'></form></td>";
 				echo "</tr>";
     		}
 		}else{
