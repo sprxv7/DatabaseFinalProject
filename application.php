@@ -9,7 +9,7 @@
         <h1>University of ______</h1><br><br>
 
         <a href="search.html">Search ...</a>
-        <a href="add.html">Add ...</a>
+        <a href="add.html"><img src="addBtn.jpg" alt="add"></a>
         <table>
 			<tr>
 				<th>Student ID</th>
@@ -22,8 +22,6 @@
                 <th>Delete ... </th>
 			</tr>
         <?php
-            // query the database, print out table html of default records:
-            // firstName,lastName, major, graduationYear of all records
 			require("database.php");
         ?>
         </table>

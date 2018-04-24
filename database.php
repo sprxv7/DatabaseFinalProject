@@ -6,7 +6,7 @@ $mysqli = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 if ($mysqli->connect_error) {
     die("Connection failed: " . $mysqli->connect_error);
 } 
-echo "<h1>Connected successfully</h1>";
+
 $search = $_GET['search'];
 $option = $_GET['option'];
 
