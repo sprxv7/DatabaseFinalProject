@@ -16,5 +16,5 @@ $sql = "DELETE FROM studentYr WHERE id = $id";
 
 $result = $mysqli->query($sql);
 
-redirect("application.php");
+header('Location: application.php');
 ?>
