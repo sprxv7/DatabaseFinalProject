@@ -7,7 +7,7 @@ if ($mysqli->connect_error) {
     die("Connection failed: " . $mysqli->connect_error);
 } 
 
-$id = $_POST['id'] ? $_POST['id'] : redirect("application.php");
+$id = $_POST['id'] ? $_POST['id'] : header('Location: application.php');
 
 
 $id = $mysqli->real_escape_string($id);
@@ -15,6 +15,6 @@ $id = $mysqli->real_escape_string($id);
 $sql = "DELETE FROM studentYr WHERE id = $id";
 
 $result = $mysqli->query($sql);
-
+$mysqli->close();
 header('Location: application.php');
 ?>
