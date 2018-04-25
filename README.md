@@ -1,15 +1,14 @@
 # DatabaseFinalProject
 CS 3380<br>
-  Michael Buikus
-  Spenser Rook
-  Song Vu Nguyen
-
-Description
+  Michael Buikus<br>
+  Spenser Rook<br>
+  Song Vu Nguyen<p>
+Description<br>
   <description>
-  
-Schema
+  <p>
+Schema<br>
   <Schema info>
-  
+  <p>
 ERD
   <Entity relationship Diagram>
   
