@@ -9,10 +9,11 @@ Description<br>
 Schema<br>
   <Schema info>
   <p>
-ERD
+ERD<br>
   <Entity relationship Diagram>
-  
-Explain CRUD
-
-Video URL
+  <p>
+CRUD<br>
+    
+<p>
+Video URL<br>
   <URL>
