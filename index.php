@@ -10,6 +10,7 @@
 
         <a href="search.html"><img src="sBtn.jpg" alt="search"></a>
         <a href="add.html"><img src="addBtn.jpg" alt="add"></a>
+        <a href="reset.php"><img src="homeBtn.jpg" alt="home"></a>
         <table>
 			<tr>
 				<th>Student ID</th>
