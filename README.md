@@ -12,10 +12,15 @@ Description
 Schema
   Table: studentYr
         ID: INT(11) - Primary Key - Not Null - Auto Increment
+        
         lastName: Char(15) - Not Null
+        
         firstName: Char(15) - Not Null
+        
         major: Char(25) - Not Null
+        
         gradYear: INT(4) - Not Null
+        
         
   Table: colleges
         major: Char(32) - Primary Key - Not Null
