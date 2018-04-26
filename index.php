@@ -8,7 +8,7 @@
     <body>
         <img src="DBU.png" alt="Database University"><br><br>
 
-        <a href="search.html"><img src="searchBtn.jpg" alt="search"></a>
+        <a href="search.html"><img src="sBtn.jpg" alt="search"></a>
         <a href="add.html"><img src="addBtn.jpg" alt="add"></a>
         <table>
 			<tr>

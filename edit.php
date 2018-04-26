@@ -37,7 +37,7 @@ $mysqli->close();
     <body>
         
         <h1>Edit student information</h1>
-        <a href="index.php">Home</a>
+        <a href="index.php"><img src="homeBtn.jpg" alt="home"></a>
         <form id="addform" name="add" action="update.php" method="get">
             First name: <input type="text" name="fname" value="<?php echo $firstName ?>"required> <br> <br>
             Last name: <input type="text" name="lname" value="<?php echo $lastName ?>"required> <br> <br>
@@ -88,8 +88,8 @@ $mysqli->close();
             </select>
             <br> <br>
             <input type="hidden" value="<?php echo $id ?>" name="id">
-            <input type="submit" value="Edit ...">
-            <input type="reset" value="Clear ...">
+            <button type="submit"><img src="editBtn.jpg" alt="Edit..."></button>
+            <button type="reset"><img src="clearBtn.jpg" alt="Clear..."></button>
         
         </form>
     </body>
