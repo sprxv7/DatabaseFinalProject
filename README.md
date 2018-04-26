@@ -1,9 +1,9 @@
 # DatabaseFinalProject
 CS 3380
 
-Michael Buikus 
-Spenser Rook 
-Song Vu Nguyen
+	Michael Buikus 
+	Spenser Rook 
+	Song Vu Nguyen
   
   ***
   
