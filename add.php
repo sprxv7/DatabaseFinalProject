@@ -18,7 +18,6 @@ require('db_access.php');
 
 $mysqli->close();
 
-    print "INSERT INTO studentYr (firstName, lastName, major, gradYear) VALUES ('$firstName', '$lastName', '$major', '$gradYear')";
 
-//    header('Location: application.php');
+    header('Location: index.php');
 ?>

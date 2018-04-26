@@ -19,5 +19,5 @@
 
 $mysqli->close();
     
-    header('Location: application.php');
+    header('Location: index.php');
 ?>

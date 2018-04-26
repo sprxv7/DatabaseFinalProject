@@ -37,7 +37,7 @@ $mysqli->close();
     <body>
         
         <h1>Edit student information</h1>
-        <a href="application.php">Home</a>
+        <a href="index.php">Home</a>
         <form id="addform" name="add" action="update.php" method="get">
             First name: <input type="text" name="fname" value="<?php echo $firstName ?>"required> <br> <br>
             Last name: <input type="text" name="lname" value="<?php echo $lastName ?>"required> <br> <br>
