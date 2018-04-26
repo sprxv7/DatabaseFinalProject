@@ -9,7 +9,7 @@ Song Vu Nguyen
   
 Description
 
-  Our application maintains student records for DataBase University. On the front page, located at <link>, you will find a list of all the students that have graduated from this University. You will have the capabilities of adding new students along with their major and graduation date. There is also a button to edit a record that will take you to a new page to modify their name, major, and graduation years if needed. Lastly, from the front page, you will also have the option to search for certain students. Our search will take you to a new page where you can use different criteria to locate the student within Database University.
+  Our application maintains student records for DataBase University. On the front page, located at <link>, you will find a list of all the students that have graduated from this University. The purpose of this 
   
   ***
   
@@ -35,6 +35,8 @@ ERD
   
 CRUD
     
+You will have the capabilities of adding new students along with their major and graduation date. There is also a button to edit a record that will take you to a new page to modify their name, major, and graduation years if needed. Lastly, from the front page, you will also have the option to search for certain students. Our search will take you to a new page where you can use different criteria to locate the student within Database University.
+
 ***
 
 Video URL
