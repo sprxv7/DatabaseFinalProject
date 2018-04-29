@@ -2,10 +2,12 @@
 <html>
     <head>
         <title>Search</title>
+        <link rel="stylesheet" type='text/css' href='page.css'>
     </head>
     <body>
+        <div class='main'>
         <h1>Search student directory</h1><br>
-        <a href="index.php"><img src="homeBtn.jpg" alt="home"></a>
+        <a href="index.php"><img src="homeBtn.jpg" alt="home"></a><p>
         <form id="searchform" name="search" action="index.php" method="get">
             Search by <select name="option" form="searchform" method="get">
                 <option value="fname">First Name</option>
@@ -16,10 +18,10 @@
             </select> <br> <br>
             Keyword:
             <input type="text" name="search" required> <br> <br>
-            <button type="submit"><img src="sBtn.jpg" alt="Search..."></button>
-            <button type="reset"><img src="clearBtn.jpg" alt="Clear..."></button>
+            <button class="search" type="submit"></button>
+            <button class="clear" type="reset"></button>
 
         </form>
-    
+    </div>
     </body>
 </html>

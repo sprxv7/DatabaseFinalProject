@@ -2,47 +2,65 @@
 <html>
     <head>
         <title>Add</title>
+        <link rel="stylesheet" type='text/css' href='page.css'>
     </head>
     <body>
+        <div class="main">
         <h1>Add to student directory</h1>
-        <a href="index.php"><img src="homeBtn.jpg" alt="home"></a>
+        <a href="index.php"><img src="homeBtn.jpg" alt="home"></a><p>
         <form id="addform" name="add" action="add.php" method="get">
             First name: <input type="text" name="fname" required> <br> <br>
             Last name: <input type="text" name="lname" required> <br> <br>
             Major: <br>
-            <input name="major" type="radio" value="Biology">Biology <br>
-            <input name="major" type="radio" value="Chemistry">Chemistry<br>
-            <input name="major" type="radio" value="English">English<br>
-            <input name="major" type="radio" value="French">French<br>
-            <input name="major" type="radio" value="German">German<br>
-            <input name="major" type="radio" value="Mathematics">Mathematics<br>
-            <input name="major" type="radio" value="Philosophy">Philosophy<br>
-            <input name="major" type="radio" value="Physics">Physics<br>
-            <input name="major" type="radio" value="Political Science">Political Science<br>
-            <input name="major" type="radio" value="Psychology">Psychology<br>
-            <input name="major" type="radio" value="Sociology">Sociology<br>
-            <input name="major" type="radio" value="Social Work">Social Work<br>
-            <input name="major" type="radio" value="Accounting">Accounting<br>
-            <input name="major" type="radio" value="Economics">Economics<br>
-            <input name="major" type="radio" value="Finance">Finance<br>
-            <input name="major" type="radio" value="General Business" checked>General Business<br>
-            <input name="major" type="radio" value="Management">Management<br>
-            <input name="major" type="radio" value="Marketing">Marketing<br>
-            <input name="major" type="radio" value="Counseling">Counseling<br>
-            <input name="major" type="radio" value="Early Childhood Education">Early Childhood Education<br>
-            <input name="major" type="radio" value="Education Administration">Education Administration<br>
-            <input name="major" type="radio" value="Educational Technology">Educational Technology<br>
-            <input name="major" type="radio" value="Elementary Education">Elementary Education<br>
-            <input name="major" type="radio" value="Secondary Education">Secondary Education<br>
-            <input name="major" type="radio" value="Special Education">Special Education<br>
-            <input name="major" type="radio" value="Aerospace Engineering">Aerospace Engineering<br>
-            <input name="major" type="radio" value="Biological Engineering">Biological Engineering<br>
-            <input name="major" type="radio" value="Chemical Engineering">Chemical Engineering<br>
-            <input name="major" type="radio" value="Civil Engineering">Civil Engineering<br>
-            <input name="major" type="radio" value="Computer Science">Computer Science<br>
-            <input name="major" type="radio" value="Electrical & Computer Engineering">Electrical & Computer Engineering<br>
-            <input name="major" type="radio" value="Mechanical Engineering">Mechanical Engineering<br>
-            <input name="major" type="radio" value="Nuclear Engineering">Nuclear Engineering<br> <br>
+            <table id='addedit'>
+            <tr>
+            <td><input name="major" type="radio" value="Biology">Biology <br></td>
+            <td><input name="major" type="radio" value="Chemistry">Chemistry<br></td><td>
+            <input name="major" type="radio" value="English">English<br></td>
+                </tr><tr>
+           <td> <input name="major" type="radio" value="French">French<br></td><td>
+            <input name="major" type="radio" value="German">German<br></td><td>
+                <input name="major" type="radio" value="Mathematics">Mathematics<br></td>
+                </tr><tr><td>
+            <input name="major" type="radio" value="Philosophy">Philosophy<br></td><td>
+            <input name="major" type="radio" value="Physics">Physics<br></td><td>
+                <input name="major" type="radio" value="Political Science">Political Science<br></td>
+                </tr><tr><td>
+            <input name="major" type="radio" value="Psychology">Psychology<br></td><td>
+            <input name="major" type="radio" value="Sociology">Sociology<br></td><td>
+                <input name="major" type="radio" value="Social Work">Social Work<br></td>
+                </tr><tr><td>
+            <input name="major" type="radio" value="Accounting">Accounting<br></td><td>
+            <input name="major" type="radio" value="Economics">Economics<br></td><td>
+            <input name="major" type="radio" value="Finance">Finance<br></td>
+                </tr><tr><td>
+            <input name="major" type="radio" value="General Business" checked>General Business<br></td><td>
+            <input name="major" type="radio" value="Management">Management<br></td><td>
+            <input name="major" type="radio" value="Marketing">Marketing<br></td>
+                </tr><tr><td>
+            <input name="major" type="radio" value="Counseling">Counseling<br></td><td>
+            <input name="major" type="radio" value="Early Childhood Education">Early Childhood Education<br></td><td>
+            <input name="major" type="radio" value="Education Administration">Education Administration<br></td>
+                </tr><tr><td>
+            <input name="major" type="radio" value="Educational Technology">Educational Technology<br></td><td>
+            <input name="major" type="radio" value="Elementary Education">Elementary Education<br></td><td>
+            <input name="major" type="radio" value="Secondary Education">Secondary Education<br></td>
+                </tr><tr><td>
+            <input name="major" type="radio" value="Special Education">Special Education<br></td><td>
+            <input name="major" type="radio" value="Aerospace Engineering">Aerospace Engineering<br></td><td>
+            <input name="major" type="radio" value="Biological Engineering">Biological Engineering<br></td>
+                </tr><tr><td>
+            <input name="major" type="radio" value="Chemical Engineering">Chemical Engineering<br></td><td>
+            <input name="major" type="radio" value="Civil Engineering">Civil Engineering<br></td><td>
+            <input name="major" type="radio" value="Computer Science">Computer Science<br></td>
+                </tr><tr><td>
+            <input name="major" type="radio" value="Electrical & Computer Engineering">Electrical & Computer Engineering<br></td><td>
+            <input name="major" type="radio" value="Mechanical Engineering">Mechanical Engineering<br></td><td>
+            <input name="major" type="radio" value="Nuclear Engineering">Nuclear Engineering</td>
+                </tr>
+                </table>
+                <br> <br>
+                
             Graduation Year: <select name="gradYear">
                 <option name="gradYear" value="2010">2010</option>
                 <option name="gradYear" value="2011">2011</option>
@@ -55,9 +73,10 @@
                 <option name="gradYear" value="2018">2018</option>
             </select>
             <br> <br>
-            <button type="submit"><img src="addBtn.jpg" alt="Add..."></button>
-            <button type="reset"><img src="clearBtn.jpg" alt="Clear..."></button>
+            <button class='add' type="submit"></button>
+            <button class='clear' type="reset"></button>
             
         </form>
+            </div>
     </body>
 </html>
