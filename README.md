@@ -40,4 +40,4 @@ You will have the capabilities of adding new students along with their major and
 ***
 
 Video URL
-  <URL>
+  [https://www.youtube.com/watch?v=qgmDrZttk5g](https://www.youtube.com/watch?v=qgmDrZttk5g)
