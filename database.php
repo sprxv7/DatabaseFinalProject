@@ -1,6 +1,10 @@
 <?php
 require('db_access.php');
 
+/*	References:
+		1) CS2830 Database with PHP Lecture (During Class)
+*/
+
 $mysqli = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 
 if ($mysqli->connect_error) {
