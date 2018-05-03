@@ -9,7 +9,7 @@ CS 3380
   
 Description
 
-   Our application maintains student records for DataBase University. On the front page, located at [http://sprxv7.epizy.com](http://sprxv7.epizy.com/), you will find a list of all the students that have already graduated from this University. We will assume that each student can have only one major, and if they don't declare a major, it going to automatically default to General Bussiness. Because this is a database to maintain a record of student who already gratuate, the gratuation year only go from 2010 up to the current year, 2018. The purpose of this database is to manage the University's gratuated students by allowing the users to search, add, edit, and remove a student at the University.
+   Our application maintains student records for DataBase University. On the front page, located at [http://sprxv7.epizy.com](http://sprxv7.epizy.com/), you will find a list of all the students that have already graduated from this University. Our database assume that each student can have only one major, and if they don't declare a major, it going to automatically default to General Bussiness. Because this is a database to maintain a record of student who already gratuate, the gratuation year only go from 2010 up to the current year, 2018. The purpose of this database is to manage the University's gratuated students by allowing the users to search, add, edit, and remove a student at the University.
   
   ***
   
