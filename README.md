@@ -31,6 +31,8 @@ Schema
 ERD
   ![alt text](https://github.com/sprxv7/DatabaseFinalProject/blob/master/ERD.jpg "ERD Image")
   
+  ![alt text](https://github.com/sprxv7/DatabaseFinalProject/blob/master/RelationshipDiagram.jpg "relationship")
+  
   ***
   
 CRUD
