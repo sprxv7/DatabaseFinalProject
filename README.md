@@ -9,7 +9,7 @@ CS 3380
   
 Description
 
-  Our application maintains student records for DataBase University. On the front page, located at [http://sprxv7.epizy.com/?i=1](http://sprxv7.epizy.com/?i=1), you will find a list of all the students that have graduated from this University. The purpose of this database is to manage the University's students by edi
+  Our application maintains student records for DataBase University. On the front page, located at [http://sprxv7.epizy.com](http://sprxv7.epizy.com/), you will find a list of all the students that have graduated from this University. The purpose of this database is to manage the University's students by allowing the users to add, edit, and remove a student at the University.
   
   ***
   
