@@ -9,7 +9,7 @@ CS 3380
   
 Description
 
-  Our application maintains student records for DataBase University. On the front page, located at [http://sprxv7.epizy.com](http://sprxv7.epizy.com/), you will find a list of all the students that have graduated from this University. The purpose of this database is to manage the University's students by allowing the users to add, edit, and remove a student at the University.
+   Our application maintains student records for DataBase University. On the front page, located at [http://sprxv7.epizy.com](http://sprxv7.epizy.com/), you will find a list of all the students that have already graduated from this University. We will assume that each student can have only one major, and if they don't declare a major, it going to automatically default to General Bussiness. Because this is a database to maintain a record of student who already gratuate, the gratuation year only go from 2010 up to the current year, 2018. The purpose of this database is to manage the University's gratuated students by allowing the users to search, add, edit, and remove a student at the University.
   
   ***
   
@@ -37,7 +37,7 @@ ERD
   
 CRUD
     
-You will have the capabilities of adding new students along with their major and graduation date. There is also a button to delete or edit a record that will take you to a new page to modify their name, major, and graduation years if needed. Lastly, from the front page, you will also have the option to search for certain students. Our search will take you to a new page where you can use different criteria to locate the student within Database University.
+You will have the capabilities of adding (CREATE) new students along with their major and graduation date. Last name and first name is require to add a student with the default major and gratuation year be General Business and 2010. There is also a button to delete (DELETE) or edit (UPDATE) a record that will take you to a new page to modify their name, major, and graduation years if needed. Lastly, from the front page, you will also have the option to search (READ) for certain students. Our search will take you to a new page where you can use different criteria to locate the student within Database University.
 
 ***
 
