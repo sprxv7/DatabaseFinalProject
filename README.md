@@ -9,7 +9,7 @@ CS 3380
   
 Description
 
-  Our application maintains student records for DataBase University. On the front page, located at <link>, you will find a list of all the students that have graduated from this University. The purpose of this 
+  Our application maintains student records for DataBase University. On the front page, located at [http://sprxv7.epizy.com/?i=1](http://sprxv7.epizy.com/?i=1), you will find a list of all the students that have graduated from this University. The purpose of this database is to manage the University's students by edi
   
   ***
   
@@ -29,7 +29,7 @@ Schema
   ***
   
 ERD
-  <Entity relationship Diagram>
+  ![alt text](https://github.com/sprxv7/DatabaseFinalProject/blob/master/ERD.jpg "ERD Image")
   
   ***
   
